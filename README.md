@@ -64,7 +64,7 @@ You need to have [Node.js](https://nodejs.org) and npm installed on your compute
 
 ### Steps
 
-#### 1. Clone the repository: `git clone https://github.comExpress.js-API`
+#### 1. Clone the repository: `git clone [https://github.com/Anne-Zwift/Express.js-API/]`
 #### 2. Navigate to the project directory: `cd Express.js-API`
 #### 3. Install the dependencies: `npm install`
 
