@@ -51,7 +51,7 @@ This repository is my [project](https://github.com/Anne-Zwift/Express.js-API) fo
 ## 🚀 Usage
 
 ### Authentication And Security
-To interact with protected endpoints, you must first register with an email and password. The system uses secure passwrd hashing via `bcrypt`.
+To interact with protected endpoints, you must first register with an email and password. The system uses secure password hashing via `bcrypt`.
 Logging in returns a JSON Web Token (JWT). By passing this token in the `Authorization: Bearer <token>` header, you gain access to submit new articles.
 
 ### .env.example
@@ -64,7 +64,7 @@ You need to have [Node.js](https://nodejs.org) and npm installed on your compute
 
 ### Steps
 
-#### 1. Clone the repository: `git clone [https://github.com/Anne-Zwift/Express.js-API/]`
+#### 1. Clone the repository: `git clone https://github.com/Anne-Zwift/Express.js-API/`
 #### 2. Navigate to the project directory: `cd Express.js-API`
 #### 3. Install the dependencies: `npm install`
 
