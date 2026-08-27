@@ -4,7 +4,7 @@ import { pool } from "../database.js";
 import { Article } from "../interfaces.js";
 import { validateArticleBody } from "../middleware/article-validation.js";
 import { authenticateToken } from "../middleware/auth-validation.js";
-import { error } from "node:console";
+
 
 
 
