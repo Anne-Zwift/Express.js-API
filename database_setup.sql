@@ -1,3 +1,5 @@
+CREATE DATABASE IF NOT EXISTS news_platform;
+USE news_platform;
 -- MySQL dump 10.13  Distrib 8.0.46, for Win64 (x86_64)
 --
 -- Host: 127.0.0.1    Database: news_platform
