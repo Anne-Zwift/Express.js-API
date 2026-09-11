@@ -9,10 +9,14 @@ Create two helper functions:
 - generateToken: Creates JWT tokens when users log in.
 - verifyToken: Checks if tokens are valid for authenticated requests.*/
 
-const JWT_SECRET = process.env.JWT_SECRET || "fallback-secret-for-development";
+const JWT_SECRET = process.env.JWT_SECRET;
+
+if (!JWT_SECRET) {
+  throw new Error("CRITICAL SEcURITY ERROR: JWT_SECRET is missing from the environment variables (.env)! Server startup aborted.");
+}
 
 export const generateToken = (userId: number): string => {
-  return jwt.sign({ userId }, JWT_SECRET, { expiresIn: "24h" });
+ return jwt.sign({ userId }, JWT_SECRET, { expiresIn: "24h" });
 }
 
 export const verifyToken = (token: string) => {
